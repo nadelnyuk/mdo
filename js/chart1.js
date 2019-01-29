@@ -26,7 +26,7 @@ var tooltip = d3.select("body")
     .style("font", "12px sans-serif")
     .text("tooltip");
 
-d3.json("README.json", function(error, json) {
+d3.json("read.json", function(error, json) {
   if (error) throw error;
 
   var node = svg.selectAll(".node")
